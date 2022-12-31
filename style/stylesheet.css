@@ -1,0 +1,198 @@
+
+body{
+  background-color: white;
+
+}
+header{
+  display: flex;
+}
+
+.logo{
+  border: 2em;
+  padding: 2em;
+  margin-right: 40em;
+}
+
+header button{
+  background: none;
+  border: none;
+  padding: .5em
+}
+
+.tcontent{
+  display: flex;
+  margin-top: 2em;
+}
+
+h1{
+  margin-bottom: 1em;
+}
+
+
+.tleft{
+  max-width: 50%;
+  padding: 2em;
+  margin-top: 3em;
+}
+
+.tleft p {
+  margin-bottom: 1em;
+}
+
+.femail input{
+  width: 12em;
+}
+
+.tleft button{
+  color: white;
+  background-color: blue;
+  border: none;
+  width: 8em;
+  margin-left: 1em;
+  border-radius: .2em;
+}
+
+.femail{
+  display: flex;
+}
+
+.tright img{
+  width: 100%;
+}
+
+.middle {
+  width: 100%;
+}
+
+.bright img{
+  width: 100%;
+}
+
+.bcontent{
+  display: flex;
+  background-color: hsl(240, 75%, 98%);
+  padding: 2em;
+}
+
+.bleft button {
+background: none;
+border: none;
+color: hsl(170, 45%, 43%);
+cursor: pointer;
+}
+
+.lowercard {
+  width: 20em;
+  background-color: white;
+  border-radius: .5em;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.avatar {
+  display: flex;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 2em;
+  padding: .5em;
+}
+
+.bcont {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  color: white;
+  padding: 2em;
+}
+
+.bcontl {
+  width: 25em;
+}
+
+.bcontr {
+  margin-left: 20em;
+  margin-top: 2em;
+  display: grid;
+}
+
+.bcont input{
+  width: 20em;
+  height: 2em;
+}
+
+.bcont button {
+  height: 2em;
+  width: 10em;
+  color: white;
+  background-color: blue;
+  border: none;
+  margin-bottom: 2em;
+  border-radius: .2em;
+}
+
+footer {
+  display: flex;
+  padding: 2em;
+  background-color: hsl(243, 87%, 12%);
+}
+
+footer button {
+  background: none;
+  border: none;
+  color: white;
+  width: 6em;
+  cursor: pointer;
+}
+
+.fsec {
+  display: grid;
+  margin-right: 20%;
+}
+
+.fsec button {
+  width: 30em;
+  padding: .5em;
+}
+
+.ssec {
+  display: grid;
+  margin-right: 20%;
+}
+
+.tsec {
+  display: grid;
+  margin-right: 20%;
+}
+
+.wlogo {
+  color: white;
+}
+
+.fsec button {
+  width: 3em;
+}
+
+.act:hover{
+  color: hsl(224, 93%, 58%);
+}
+
+footer button:hover {
+  color: hsl(224, 93%, 58%);
+}
+
+.bcont button:hover{
+  color: white;
+  cursor: pointer;
+  background-color: hsl(224, 93%, 58%);
+}
+
+.tcontent button:hover{
+color: white;
+background-color: hsl(224, 93%, 58%);
+cursor: pointer;
+}
+
+.tcontent input{
+  
+}
